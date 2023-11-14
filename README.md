@@ -8,7 +8,6 @@
 [Resend](https://resend.com) integration for [Nuxt](https://nuxt.com).
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
-- [🏀 Online playground](https://stackblitz.com/github/nhedger/nuxt-resend?file=playground%2Fapp.vue)
 
 ## Quick Setup
 
