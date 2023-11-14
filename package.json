@@ -1,6 +1,6 @@
 {
   "name": "nuxt-resend",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Resend integration for Nuxt",
   "repository": "nhedger/nuxt-resend",
   "license": "MIT",
