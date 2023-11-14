@@ -7,7 +7,7 @@
 
 [Resend](https://resend.com) integration for [Nuxt](https://nuxt.com).
 
-- [✨ &nbsp;Release Notes](/CHANGELOG.md)
+- [✨ Release Notes](/CHANGELOG.md)
 - [🏀 Online playground](https://stackblitz.com/github/nhedger/nuxt-resend?file=playground%2Fserver%2Fapi%2Fsend.get.ts)
 
 ## Quick Setup
