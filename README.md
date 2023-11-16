@@ -43,7 +43,22 @@ Add the following configuration to your `.env` file replacing the value in `< >`
 NUXT_RESEND_API_KEY="<your_resend_api_key>"
 ```
 
-That's it! You can now use Nuxt Resend in your Nuxt app ✨
+That's it! You can now use Nuxt Resend in your Server routes:
+
+```ts
+export default defineEventHandler(async () => {
+	const { emails } = useResend();
+
+	const result = await emails.send({
+		from: "My Company <my@company.com>",
+		to: ["my@client.com"],
+		subject: "Hello from Nuxt Resend",
+		text: "Hello world!",
+	});
+
+	return { email: 'sent' }
+});
+```
 
 ## Development
 
