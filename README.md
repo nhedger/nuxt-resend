@@ -1,3 +1,5 @@
+![Nuxt Resend](.github/social-card.png)
+
 # Nuxt Resend
 
 [![npm version][npm-version-src]][npm-version-href]
