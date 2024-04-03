@@ -16,17 +16,7 @@
 1. Add `nuxt-resend` dependency to your project
 
 ```bash
-# Using npm
-npm install --save-dev nuxt-resend
-
-# Using pnpm
-pnpm add -D nuxt-resend
-
-# Using yarn
-yarn add --dev nuxt-resend
-
-# Using bun
-bun add --D nuxt-resend
+npx nuxi@latest module add resend
 ```
 
 2. Add `nuxt-resend` to the `modules` section of `nuxt.config.ts`
